@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Game.Block"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Game"
+             mc:Ignorable="d" Width="70" Height="70">
+    <Grid Width="70" Height="70">
+        <Ellipse HorizontalAlignment="Center" Height="129" Stroke="Black" VerticalAlignment="Center" Width="129" RenderTransformOrigin="0.512,0.495" Margin="0,0,-6,0">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/kisspng-apple-icon-image-format-download-planet-icon-solar-system-planets-png-icon-5a914712a14bf8.3559947215194703546607.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
+
+    </Grid>
+</UserControl>

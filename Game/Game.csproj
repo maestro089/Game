@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="113-1135451_x-wing-fighter-png-star-wars-x-wing.png" />
+    <None Remove="kisspng-apple-icon-image-format-download-planet-icon-solar-system-planets-png-icon-5a914712a14bf8.3559947215194703546607.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="113-1135451_x-wing-fighter-png-star-wars-x-wing.png" />
+    <Resource Include="kisspng-apple-icon-image-format-download-planet-icon-solar-system-planets-png-icon-5a914712a14bf8.3559947215194703546607.png" />
+  </ItemGroup>
+
+</Project>
